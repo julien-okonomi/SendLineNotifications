@@ -7,3 +7,8 @@ The button "Send Message" in the Elipse Application Viewer Interface executes a 
 Set WshShell = CreateObject("WScript.Shell")
 WshShell.Run ".\SendMessagetoLINE.bat " & chr(34) & Screen.Item("TextMessage").Value & chr(34) & " " & chr(34) & abs(int(Screen.Item("CheckBoxSticker").Value)) & chr(34)
 </code>
+
+<img src="ElipseApplicationInterface.png" class="img-responsive" alt=""> </div>
+
+
+<img src="LineInterface.png" class="img-responsive" alt=""> </div>
