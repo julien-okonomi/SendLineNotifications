@@ -20,6 +20,8 @@ curl -X POST -H 'Authorization: Bearer [access_token]' -F 'message=foobar' https
 -F is for sending form data
 </code>
 
+Elipse Application Interface
+
 <img src="ElipseApplicationInterface.png" class="img-responsive" alt=""> </div>
 
 Messages are received
