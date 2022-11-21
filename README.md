@@ -10,12 +10,11 @@ Set WshShell = CreateObject("WScript.Shell")
 WshShell.Run ".\SendMessagetoLINE.bat " & chr(34) & Screen.Item("TextMessage").Value & chr(34) & " " & chr(34) & abs(int(Screen.Item("CheckBoxSticker").Value)) & chr(34)
 </code>
 
-The batch file enclose contains the cURL command. Replace [access_token] with your personal access token.
+The batch file enclosed contains the cURL command that send the LINE message witht the notification. Replace [access_token] with your personal access token.
 
 <code>
-curl -X POST -H 'Authorization: Bearer [access_token]' -F 'message=foobar' https://  
-notify-api.line.me/api/notify
-Null
+curl -X POST -H 'Authorization: Bearer [access_token]' -F 'message=foobar' https://notify-api.line.me/api/notify
+
 -X is for assigning request methods
 -H is for assigning request headers
 -F is for sending form data
