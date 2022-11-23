@@ -1,5 +1,5 @@
 # SendLineNotifications
-Send LINE Notifications with Curl from Elipse E3 / Elipse Power
+Send LINE Notifications with Curl from Elipse Software (E3/ Elipse Power)
 
 The button "Send Message" in the Elipse Application Viewer Interface executes a script written in Visual Basic.
 
